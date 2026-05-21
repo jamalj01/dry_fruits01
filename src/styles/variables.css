@@ -1,0 +1,77 @@
+/* src/styles/variables.css */
+
+:root {
+  /* Default: Dark Cacao (Luxury Organic) */
+  --font-family: 'Outfit', 'Inter', -apple-system, sans-serif;
+  
+  --bg-primary: #0f0b0a;
+  --bg-secondary: #171211;
+  --bg-card: #201918;
+  --bg-card-hover: #29201f;
+  --bg-modal: #1d1716;
+  
+  --text-main: #f5edea;
+  --text-muted: #af9f9a;
+  --text-inverse: #0f0b0a;
+  
+  --border-color: #2f2523;
+  --border-color-hover: #4e3d3a;
+  
+  --primary-accent: #ff477e; /* Neon Raspberry */
+  --secondary-accent: #ffaa00; /* Warm Gold */
+  --success: #2ec4b6;
+  --danger: #e63946;
+  
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.5);
+  --shadow-lg: 0 16px 40px rgba(0, 0, 0, 0.7);
+  --glow-accent: 0 0 15px rgba(255, 71, 126, 0.3);
+  
+  --border-radius-sm: 8px;
+  --border-radius-md: 16px;
+  --border-radius-lg: 24px;
+  
+  --transition-fast: 0.15s ease;
+  --transition-normal: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-slow: 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Organic Forest Theme (Earth tones, green accent) */
+.theme-organic {
+  --bg-primary: #0d110e;
+  --bg-secondary: #131a15;
+  --bg-card: #1b241e;
+  --bg-card-hover: #243028;
+  --bg-modal: #16201a;
+  
+  --text-main: #edf5f0;
+  --text-muted: #9eada3;
+  --text-inverse: #0d110e;
+  
+  --border-color: #27362c;
+  --border-color-hover: #3d5445;
+  
+  --primary-accent: #4ade80; /* Fresh Green */
+  --secondary-accent: #fbbf24; /* Amber Honey */
+  --glow-accent: 0 0 15px rgba(74, 222, 128, 0.3);
+}
+
+/* Vibrant Candy Theme (Playful, colorful M&M style) */
+.theme-candy {
+  --bg-primary: #0b0f19;
+  --bg-secondary: #121829;
+  --bg-card: #1b233d;
+  --bg-card-hover: #263154;
+  --bg-modal: #151d33;
+  
+  --text-main: #f0f4ff;
+  --text-muted: #9ab0e0;
+  --text-inverse: #0b0f19;
+  
+  --border-color: #29365c;
+  --border-color-hover: #40548f;
+  
+  --primary-accent: #3b82f6; /* Sweet Blue */
+  --secondary-accent: #ef4444; /* Candy Red */
+  --glow-accent: 0 0 15px rgba(59, 130, 246, 0.4);
+}

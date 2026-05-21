@@ -1,0 +1,34 @@
+/* src/index.css */
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Lilita+One&family=Lexend:wght@300..800&family=Inter:wght@300..800&display=swap');
+
+@import "tailwindcss";
+@config "../tailwind.config.js";
+
+/* Playful custom background adjustments */
+body {
+  font-family: 'Lexend', 'Inter', sans-serif;
+  color: #2C1A13;
+  background-color: #FFFDF9; /* Sweet cream background */
+  overflow-x: hidden;
+}
+
+/* Staggered mounting grid items anim */
+@keyframes cardMount {
+  from {
+    opacity: 0;
+    transform: translateY(20px) scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.animate-card-mount {
+  animation: cardMount 0.45s cubic-bezier(0.34, 1.56, 0.64, 1) both;
+}
+
+/* Spring-like transition classes */
+.spring-transition {
+  transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
